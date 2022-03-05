@@ -19,14 +19,8 @@
 <body>
     <section>
         <header>
-            <nav>
-                <strong>{{ $page->site->title }}</strong><br>
-                <ul>
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/posts">Posts</a></li>
-                    <li><a href="/about">About</a></li>
-                    <li><a href="/contact">Contact</a></li>
-                </ul>
+            <nav> 
+              <a href="https://www.babybaby.in/"><img src="https://user-images.githubusercontent.com/88181976/155539273-650e05e9-765a-49ca-aa19-2788e14fc856.png" alt="BabyBaby" width="45" height="45"></a>
             </nav>
         </header>
 
@@ -37,17 +31,20 @@
         </article>
 
         <footer>
-            <small>
-                &copy; <span data-year></span> {{ $page->owner->name }} &nbsp;&bull;&nbsp;
-                <a href="/feed.atom">RSS</a> &nbsp;&bull;&nbsp;
-                Maintained by Ranie Santos &nbsp;&bull;&nbsp;
-                <a href="https://github.com/raniesantos/artisan-static">GitHub repo</a>
-            </small>
+         <small><center>
+             <a href="https://www.facebook.com/miomioindia">Facebook</a>
+             &nbsp&nbsp
+             <a href="https://www.instagram.com/babybaby.in">Instagram</a>
+             &nbsp&nbsp
+             <a href="https://www.babybaby.in/contact/">Contact us</a>
+             <br>
+             &copy; BabyBaby
+        </center></small>
         </footer>
     </section>
 
     <script src="{{ mix('js/main.js', 'assets/build') }}"></script>
-    @includeWhen($page->production && $page->services->analytics, '_partials.analytics')
+    @includeWhen($page->production, '_partials.analytics')
     @include('_partials.cms.identity_redirect')
 </body>
 </html>
