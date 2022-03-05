@@ -38,7 +38,7 @@
              &nbsp&nbsp
              <a href="https://www.babybaby.in/contact/">Contact us</a>
              <br>
-             &copy; BabyBaby.in
+             &copy; babybaby.in
         </center></small>
         </footer>
     </section>
