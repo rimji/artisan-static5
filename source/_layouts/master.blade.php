@@ -20,7 +20,7 @@
     <section>
         <header>
             <nav> 
-              <a href="https://www.babybaby.in/"><img src="https://user-images.githubusercontent.com/88181976/156891105-7f552e7f-431c-45e6-a070-3510a28c7507.png" alt="BabyBaby" width="100" height="30"><sup>in</sup></a>
+              <a href="https://www.babybaby.in/"><img src="https://user-images.githubusercontent.com/88181976/156891105-7f552e7f-431c-45e6-a070-3510a28c7507.png" alt="BabyBaby" width="100" height="30"><sup><i>in</i></sup></a>
             </nav>
         </header>
 
