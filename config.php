@@ -2,10 +2,10 @@
 
 return [
     'production' => false,
-    'baseUrl' => 'https://artisanstatic.netlify.app',
+    'baseUrl' => 'https://www.babybaby.in',
     'site' => [
-        'title' => 'My Jigsaw Blog',
-        'description' => 'Personal blog of John Doe.',
+        'title' => 'BabyBaby',
+        'description' => 'babybaby.in',
         'image' => 'default-share.png',
     ],
     'owner' => [
